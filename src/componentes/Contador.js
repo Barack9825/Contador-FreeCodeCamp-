@@ -1,6 +1,6 @@
 import React from 'react'
-
-function Contador({numClics}) {
+import '../hojas-de-estilo/Contador.css'
+function Contador( { numClics }) {
   return (
     <div className='contador'>
       {numClics}
